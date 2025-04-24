@@ -13,6 +13,15 @@ void setup()
 
 void loop()
 {
+  //cabecalho
+  
+  Serial.println("|-----------------------------|");
+  Serial.println("|                             |");
+  Serial.println("|         LOPAL - EX07        |");
+  Serial.println("|                             |");
+  Serial.println("|-----------------------------|");
+  
+  
   // Entrada
   Serial.println("Digite o nome do funcionario:");
   while (!Serial.available()) {}       // Aguarda o usuário digitar
@@ -30,7 +39,8 @@ void loop()
   while (!Serial.available()) {}       // Aguarda o usuário digitar
   salario = Serial.parseFloat();       // Lê o salário
   
-  delay(500);
+  dela
+   y(500);
 
   // Processamento
   novoSalario = salario * 1.10;        // Calcula o salário com 10% de aumento

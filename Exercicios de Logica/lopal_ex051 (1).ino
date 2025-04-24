@@ -13,6 +13,15 @@ void setup()
 
 void loop()
 {
+  
+  //cabecalho
+  
+  Serial.println("|-----------------------------|");
+  Serial.println("|                             |");
+  Serial.println("|         LOPAL - EX05        |");
+  Serial.println("|                             |");
+  Serial.println("|-----------------------------|");
+  
   // Entrada
   Serial.println("Digite a medida em centimetros:");
   while (!Serial.available()) {}       // Aguarda o usuário digitar

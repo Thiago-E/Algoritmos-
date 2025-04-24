@@ -14,6 +14,14 @@ void setup()
 
 void loop()
 {
+  //cabecalho
+  
+  Serial.println("|-----------------------------|");
+  Serial.println("|                             |");
+  Serial.println("|         LOPAL - EX04        |");
+  Serial.println("|                             |");
+  Serial.println("|-----------------------------|");
+  
   Serial.println("Qual o seu nome");
   while(! Serial.available() );
   nome = Serial.readString();

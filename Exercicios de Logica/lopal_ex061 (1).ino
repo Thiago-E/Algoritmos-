@@ -12,6 +12,14 @@ void setup()
 
 void loop()
 {
+  //cabecalho
+  
+  Serial.println("|-----------------------------|");
+  Serial.println("|                             |");
+  Serial.println("|         LOPAL - EX06        |");
+  Serial.println("|                             |");
+  Serial.println("|-----------------------------|");
+  
   // Entrada
   Serial.println("Digite a medida em polegadas:");
   while (!Serial.available()) {}       // Aguarda o usuário digitar
